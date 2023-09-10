@@ -5,15 +5,15 @@ import HomeScreen from './screens/HomeScreen';
 import ClientesScreen from './screens/ClientesScreen';
 import OrcamentoScreen from "./screens/OrcamentoScreen";
 import NovoClienteScreen from "./screens/NovoClienteScreen";
-import Database from "./models/Database";
+//import Database from "./models/Database";
 
 const Stack = createStackNavigator();
 
 const App = () => {
-   useEffect(() => {
-       // Inicialize o banco de dados quando o aplicativo iniciar
-       Database.init();
-   }, []);
+   // useEffect(() => {
+   //     // Inicialize o banco de dados quando o aplicativo iniciar
+   //     Database.init();
+   // }, []);
 
   return (
       <NavigationContainer>
